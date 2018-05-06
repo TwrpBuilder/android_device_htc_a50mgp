@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_htc_htc_a50mgp_dug
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
