@@ -15,7 +15,7 @@
 #
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/htc/htc_a50mgp_dug/kernel
+TARGET_PREBUILT_KERNEL := device/htc/a50mgp/kernel
 BOARD_KERNEL_CMDLINE :=  androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048

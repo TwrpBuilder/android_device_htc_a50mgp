@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter htc_a50mgp_dug,$(TARGET_DEVICE)),)
+ifneq ($(filter a50mgp,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/htc/htc_a50mgp_dug
+LOCAL_PATH := device/htc/a50mgp
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

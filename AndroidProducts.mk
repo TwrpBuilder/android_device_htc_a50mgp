@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/htc/htc_a50mgp_dug
+LOCAL_PATH := device/htc/a50mgp
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_htc_a50mgp_dug.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_a50mgp.mk

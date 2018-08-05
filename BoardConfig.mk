@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/htc/htc_a50mgp_dug
+LOCAL_PATH := device/htc/a50mgp
 
 TARGET_BOARD_PLATFORM := MT6592
-TARGET_BOOTLOADER_BOARD_NAME := htc_a50mgp_dug
+TARGET_BOOTLOADER_BOARD_NAME := a50mgp
 
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true

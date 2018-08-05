@@ -16,10 +16,10 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-PRODUCT_COPY_FILES += device/htc/htc_a50mgp_dug/kernel:kernel
+PRODUCT_COPY_FILES += device/htc/a50mgp/kernel:kernel
 
-PRODUCT_DEVICE := htc_a50mgp_dug
-PRODUCT_NAME := omni_htc_a50mgp_dug
+PRODUCT_DEVICE := a50mgp
+PRODUCT_NAME := omni_a50mgp
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC Desire 820G PLUS dual sim
 PRODUCT_MANUFACTURER := htc
